@@ -36,7 +36,7 @@ fun WeatherUI(viewModel: WeatherViewModel) {
         Column {
 
             androidx.compose.material3.Text(
-                text = it.name, color = Color.White
+                text = it.name, color = Color.Blue
             )
 
             androidx.compose.material3.Text(
