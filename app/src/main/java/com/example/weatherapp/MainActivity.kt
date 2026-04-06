@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun WeatherUI(viewModel: WeatherViewModel) {
 
-    val data = viewModel.weatherData
+     val data = viewModel.weatherData
 
     data?.let {
 
